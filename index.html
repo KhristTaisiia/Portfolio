@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <div class="user">
+                    <img class="user_avatar" src="images/avatar_photo.jpg" alt="" width="45" height="45">
+                    <div class="user_content">
+                        <div class="user_name">Taisiia <br> Khristenko</div>
+                        <div class="user_prof">東京工科大学コンピュータサイエンス学部</div>
+                    </div>
+                </div>
+
+                <div class="nav" id="nav">
+                    <a class="nav_link" href="#" data-scroll="#about">about me</a>
+                    <a class="nav_link" href="mailto:khrist.tais@gmail.com">contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <div class="intro_inner">
+                <div class="intro_content">
+                    <h2 class="intro_subtitle">Hello i'm</h2>
+                    <h1 class="intro_title">Taisiia Khristenko</h1>
+                    <div class="intro_text">東京工科大学コンピュータサイエンス学部3年生</div>
+
+                    <div class="social">
+                        <a class="social_link" href="https://github.com/KhristTaisiia">
+                            <img src="images/git.jpg" alt="" width="45" height="45">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="images/linkedin.png" alt="">
+                        </a>
+                        <a class="social_link" href="#">
+                            <img src="images/facebook.png" alt="">
+                        </a>
+                    </div>
+
+                    <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
+                </div>
+
+                <img class="intro_photo" src="images/avatar.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about_inner">
+
+                <div class="about_content">
+                    <h3 class="about_title">about me</h3>
+                    <h2 class="about_bigtitle">who am i</h2>
+                    <div class="about_text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus odit maiores perspiciatis at sapiente ut sunt. Repudiandae quibusdam delectus, dolor culpa veritatis perspiciatis alias laudantium iure odit, corporis ea!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus odit maiores perspiciatis at sapiente ut sunt. Repudiandae quibusdam delectus, dolor culpa veritatis perspiciatis alias laudantium iure odit, corporis ea!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus odit maiores perspiciatis at sapiente ut sunt. Repudiandae quibusdam delectus, dolor culpa veritatis perspiciatis alias laudantium iure odit, corporis ea!</p>
+                    </div>
+
+                    <button class="btn" type="button" data-modal="#modal_resume">see my resume</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_info">
+                    <div class="footer_copyright">
+                        &copy; Taisiia Khristenko
+                    </div>
+
+                    <div class="footer_social">
+                        <a class="footer_link" href="https://github.com/KhristTaisiia">
+                            <img src="images/git_icon.png" alt="" width="25" height="25">
+                        </a>
+                        <a class="footer_link" href="#">
+                            <img src="images/linkedin_icon.png" alt="">
+                        </a>
+                        <a class="footer_link" href="#">
+                            <img src="images/facebook_icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_nav">
+                    <a class="footer_nav_link" href="#" data-scroll="#about">about me</a>
+                    <a class="footer_nav_link" href="mailto:khrist.tais@gmail.com">contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal_resume">
+        <div class="modal_dialog">
+            <h3 class="modal_title">RESUME</h3>
+            <img class="modal_photo" src="images/resume.jpg" alt="">
+            <a class="btn btn_edit btn_modal" href="images/resume.jpg" download>Download</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
